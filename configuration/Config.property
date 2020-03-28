@@ -1,0 +1,6 @@
+chromeDriver=C:\\Users\\dell\\eclipse-workspace\\groupid\\src\\test\\resources\\binaries\\chromedriver.exe
+
+URL=https://www.google.com/search?q=w3schoolos&oq=w3schoolos&aqs=chrome..69i57j0l7.15166j0j7&sourceid=chrome&ie=UTF-8
+WordPressURl=http://demosite.center/wordpress/wp-login.php
+WordPressLoginURL=http://demosite.center/wordpress/wp-admin/
+Excelpath=

@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 28.823 sec <<< FAILURE!
+TestATest(Selenium.learningAttributesInTestNGTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.RuntimeException: Test not implemented
+	at Selenium.learningAttributesInTestNGTest.TestATest(learningAttributesInTestNGTest.java:10)
+
+TestBTest(Selenium.learningAttributesInTestNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.RuntimeException: Test not implemented
+	at Selenium.learningAttributesInTestNGTest.TestBTest(learningAttributesInTestNGTest.java:15)
+
+TestCTest(Selenium.learningAttributesInTestNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.RuntimeException: Test not implemented
+	at Selenium.learningAttributesInTestNGTest.TestCTest(learningAttributesInTestNGTest.java:20)
+
+testconfig(Selenium.TestSelenium)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: .\Configuration1\Config.property (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at Selenium.TestSelenium.testconfig(TestSelenium.java:15)
+

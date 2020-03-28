@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Selenium.TestSelenium">
+        <methods>
+          <include name="testconfig"/>
+        </methods>
+      </class> <!-- Selenium.TestSelenium -->
+      <class name="Selenium.learningAttributesInTestNGTest">
+        <methods>
+          <include name="TestCTest"/>
+          <include name="TestBTest"/>
+          <include name="TestATest"/>
+        </methods>
+      </class> <!-- Selenium.learningAttributesInTestNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
